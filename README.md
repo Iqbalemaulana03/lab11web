@@ -36,3 +36,9 @@ Router terletak pada file app/config/Routes.php
 # yaitu php spark
 ![image](https://user-images.githubusercontent.com/82009410/122631277-e9521380-d0f4-11eb-8236-d726aab30f5b.png)
 
+# Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about
+![image](https://user-images.githubusercontent.com/82009410/122634828-cd596c80-d10a-11eb-8d89-dd96e718fc7f.png)
+
+# Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
+
