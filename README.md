@@ -14,12 +14,6 @@ NIM : 311910594
 Untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan composer. Pada praktikum ini kita menggunakan cara manual.
 ![image](https://user-images.githubusercontent.com/82009410/122629138-0d0d5d80-d0e5-11eb-92a6-b45428a82ea3.png)
 
-
-# Menjalankan CLI (Command Line Interface)
-Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk 
-mengakses CLI buka terminal/command prompt. 
-![image](https://user-images.githubusercontent.com/82009410/122628502-940c0700-d0e0-11eb-8831-3baf56ed221e.png)
-
 # Menjalankan CLI (Command Line Interface)
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt. Arahkan lokasi direktori sesuai dengan direktori kerja project dibuat (xampp/htdocs/lab11_php_ci/ci4/) Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah: ( php spark )
 ![image](https://user-images.githubusercontent.com/82009410/122629857-37154e80-d0ea-11eb-9e67-22e180cfee22.png)
@@ -38,4 +32,7 @@ Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk menge
 Router terletak pada file app/config/Routes.php
 ![image](https://user-images.githubusercontent.com/82009410/122630773-78a8f800-d0f0-11eb-8b9f-7260c58ec7e0.png)
 
+# Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut.
+# yaitu php spark
+![image](https://user-images.githubusercontent.com/82009410/122631277-e9521380-d0f4-11eb-8236-d726aab30f5b.png)
 
