@@ -60,6 +60,17 @@ Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halama
 # Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 ![image](https://user-images.githubusercontent.com/82009410/122657869-5dda9000-d191-11eb-9936-5004e1897f08.png)
 
+# Membuat Layout Web dengan CSS
+Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada Codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public. Buat file css pada direktori public dengan nama style.css
+![image](https://user-images.githubusercontent.com/82009410/122658090-616f1680-d193-11eb-90d5-c8932e33e5a1.png)
+
+Kemudian ubah file app/view/about.php seperti berikut.
+include('template/header'); ?>
+include('template/footer'); ?>
+-Kemudian refresh browser atau akses alamat http://localhost:8080/about
+![image](https://user-images.githubusercontent.com/82009410/122658094-819ed580-d193-11eb-8807-c0dd25409ce2.png)
+
+
 # Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 Tampilan page about
