@@ -42,6 +42,33 @@ Router terletak pada file app/config/Routes.php
 # Membuat Controller
 Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
 
+![image](https://user-images.githubusercontent.com/82009410/122657718-5e265b80-d190-11eb-9dfc-5728b0950091.png)
+
+Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halaman sudah dapat diakses.
+
+![image](https://user-images.githubusercontent.com/82009410/122657746-8615bf00-d190-11eb-9287-e1a615131fdb.png)
+
+# Tambahkan method baru pada Controller Page seperti berikut.
+![image](https://user-images.githubusercontent.com/82009410/122657805-edcc0a00-d190-11eb-9852-1aeec86f9378.png)
+
+# Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
+![image](https://user-images.githubusercontent.com/82009410/122657825-0b00d880-d191-11eb-8bcd-ea42ed96d2a3.png)
+
+# Ubah method about pada class Controller Page menjadi seperti berikut:
+![image](https://user-images.githubusercontent.com/82009410/122657857-44394880-d191-11eb-845a-2461b692eb29.png)
+
+# Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
+![image](https://user-images.githubusercontent.com/82009410/122657869-5dda9000-d191-11eb-9936-5004e1897f08.png)
+
+# Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
+![image](https://user-images.githubusercontent.com/82009410/122657883-79459b00-d191-11eb-9bb3-b9ad009262ce.png)
+
+# Kemudian ubah file app/view/about.php seperti berikut
+![image](https://user-images.githubusercontent.com/82009410/122657907-b4e06500-d191-11eb-815e-bb9cb61f7e7f.png)
+
+# Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
+![image](https://user-images.githubusercontent.com/82009410/122657926-d9d4d800-d191-11eb-9245-b3f998d926f5.png)
+
 # Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 Tampilan page about
