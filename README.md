@@ -42,3 +42,13 @@ Router terletak pada file app/config/Routes.php
 # Membuat Controller
 Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
 
+# Pertanyaan dan Tugas
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+Tampilan page about
+
+Tampilan page artikel
+![image](https://user-images.githubusercontent.com/82009410/122635265-16122500-d10d-11eb-93d5-81016770368e.png)
+
+# tampilan page contact
+![image](https://user-images.githubusercontent.com/82009410/122635301-39d56b00-d10d-11eb-8bce-506111e5770f.png)
+
