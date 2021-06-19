@@ -60,15 +60,6 @@ Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halama
 # Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 ![image](https://user-images.githubusercontent.com/82009410/122657869-5dda9000-d191-11eb-9936-5004e1897f08.png)
 
-# Kemudian buat folder template pada direktori view kemudian buat file header.php dan footer.php
-![image](https://user-images.githubusercontent.com/82009410/122657883-79459b00-d191-11eb-9bb3-b9ad009262ce.png)
-
-# Kemudian ubah file app/view/about.php seperti berikut
-![image](https://user-images.githubusercontent.com/82009410/122657907-b4e06500-d191-11eb-815e-bb9cb61f7e7f.png)
-
-# Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
-![image](https://user-images.githubusercontent.com/82009410/122657926-d9d4d800-d191-11eb-9245-b3f998d926f5.png)
-
 # Pertanyaan dan Tugas
 Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 Tampilan page about
