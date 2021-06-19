@@ -20,5 +20,11 @@ Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk
 mengakses CLI buka terminal/command prompt. 
 ![image](https://user-images.githubusercontent.com/82009410/122628502-940c0700-d0e0-11eb-8831-3baf56ed221e.png)
 
+# Menjalankan CLI (Command Line Interface)
+Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt. Arahkan lokasi direktori sesuai dengan direktori kerja project dibuat (xampp/htdocs/lab11_php_ci/ci4/) Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah: ( php spark )
+![image](https://user-images.githubusercontent.com/82009410/122629790-cff79a00-d0e9-11eb-8e89-8d75ca083ad2.png)
+![image](https://user-images.githubusercontent.com/82009410/122629836-14833580-d0ea-11eb-948c-e18b449c8600.png)
+
+
 
 
