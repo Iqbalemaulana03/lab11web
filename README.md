@@ -8,7 +8,7 @@ NIM : 311910594
 # Langkah-langkah Praktikum
 # Buat folder baru dengan nama lab11_php_ci pada docroot webserver (htdocs)
 
-![lab11web](https://user-images.githubusercontent.com/82009410/122627833-602ee280-d0dc-11eb-9afa-171d4170b75d.PNG)
+![image](https://user-images.githubusercontent.com/82009410/123494576-8c051780-d64a-11eb-8da9-5d26aef8ff78.png)
 
 # Instalasi Codeigniter 4
 Untuk melakukan instalasi Codeigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan composer. Pada praktikum ini kita menggunakan cara manual.
