@@ -82,3 +82,93 @@ Tampilan page artikel
 # tampilan page contact
 ![image](https://user-images.githubusercontent.com/82009410/122635301-39d56b00-d10d-11eb-8bce-506111e5770f.png)
 
+# Praktikum 12 - Lanjutan Codeigniter - Pemrograman Web
+# lab12web
+
+# Buat Database
+
+CREATE DATABASE lab_ci4;
+
+# Buat Tabel
+
+CREATE TABLE artikel (
+
+ id INT(11) auto_increment,
+ 
+ judul VARCHAR(200) NOT NULL,
+ 
+ isi TEXT,
+ 
+ gambar VARCHAR(200),
+ 
+ status TINYINT(1) DEFAULT 0,
+ 
+ slug VARCHAR(200),
+ 
+ PRIMARY KEY(id)
+ 
+);
+
+![image](https://user-images.githubusercontent.com/82009410/123363167-1e9aad80-d59c-11eb-90d2-c0ffc4bd2c83.png)
+
+![image](https://user-images.githubusercontent.com/82009410/123363362-818c4480-d59c-11eb-977b-28d7eb7e87d7.png)
+
+# Langkah 1 - Konfigurasi Koneksi Database
+# Konfigurasi dapat dilakukan dengan cara mengubah beberapa kode pada file htdocs\lab11_php_ci\ci4.env.
+
+=>Cari pada line DATABASE
+
+=>Ubah seperti berikut ini
+
+#database.default.hostname = localhost
+
+#database.default.database = lab_ci4
+
+#database.default.username = root
+
+#database.default.password = 
+
+#database.default.DBDriver = MySQLi
+
+#database.default.DBPrefix =
+
+=>Hilangkan tanda pagar # didepan. Maka jadi seperti dibawah ini.
+
+database.default.hostname = localhost
+
+database.default.database = lab_ci4
+
+database.default.username = root
+
+database.default.password = 
+
+database.default.DBDriver = MySQLi
+
+database.default.DBPrefix =
+
+![image](https://user-images.githubusercontent.com/82009410/123366146-e007f180-d5a1-11eb-8700-0d02525b6566.png)
+# Langkah 2 - Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada folder app/Models dengan nama ArtikelModel.php
+
+![image](https://user-images.githubusercontent.com/82009410/123366392-53116800-d5a2-11eb-9f03-6e50bec1d7e3.png)
+
+# Langkah 3 - Membuat Controller
+
+Buat Controller baru dengan nama Artikel.php pada folder app/Controllers
+
+![image](https://user-images.githubusercontent.com/82009410/123366482-80f6ac80-d5a2-11eb-9542-5565c7cef515.png)
+
+# Langkah 4 - Membuat View
+Buat folder baru dengan nama artikel pada folder app/views, kemudian buat file baru dengan nama index.php
+
+![image](https://user-images.githubusercontent.com/82009410/123366692-d7fc8180-d5a2-11eb-8ca5-e71b385e92e3.png)
+
+Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
+
+![image](https://user-images.githubusercontent.com/82009410/123366914-42adbd00-d5a3-11eb-8b2d-900aaceb58e1.png)
+
+Kemudian tambahkan beberapa data pada database agar dapat ditampilkan datanya
+
+# Langkah 5 - Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada Controller Artike dengan nama view()
+![image](https://user-images.githubusercontent.com/82009410/123367023-75f04c00-d5a3-11eb-988f-25df0f2175b5.png)
